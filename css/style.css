@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.title_img{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    margin: 20px 150px;
+    justify-content: space-between;
+}
+
+.nav__item{
+    font-size: 21px;
+    background: #fffde8;
+    box-shadow: 0px 0px 0px 10px #fffde8;/*線の外側*/
+    border: dashed 2px #ffb03f;/*破線*/
+    border-radius: 9px;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+ul li.remove span {
+  color: #F00;
+}
+
+h1 {
+    color: #404040;
+    border-left: solid 15px #f38ad4;
+    border-bottom: solid 2px #dadada;
+    background: whitesmoke;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none!important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #404040;
+    border-left: solid 15px #4b25f8;
+    border-bottom: solid 2px #dadada;
+    background: whitesmoke;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none!important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1000px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.player_card {
+    margin:  10px 0 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.card_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.okini {
+    font-size: 40px;
+    color: #fff;
+    -webkit-text-stroke: 1px #333;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0 10px 0 260px;
+}
+
+.enemy_card {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.add, .remove {
+    margin: 5px;
+    background-color:bisque;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 320px;
+    width: 100%;
+}
+
+.card_img {
+    margin: 0  auto;
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+}
+
+.status {
+    margin: 0  auto;
+}
+
+td {
+    width: 100px;
+}
